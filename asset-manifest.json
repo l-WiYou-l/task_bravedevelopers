@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/task_bravedevelopers/static/css/main.02f7f0b1.css",
-    "main.js": "/task_bravedevelopers/static/js/main.8757f646.js",
+    "main.js": "/task_bravedevelopers/static/js/main.1adcb687.js",
     "index.html": "/task_bravedevelopers/index.html",
     "main.02f7f0b1.css.map": "/task_bravedevelopers/static/css/main.02f7f0b1.css.map",
-    "main.8757f646.js.map": "/task_bravedevelopers/static/js/main.8757f646.js.map"
+    "main.1adcb687.js.map": "/task_bravedevelopers/static/js/main.1adcb687.js.map"
   },
   "entrypoints": [
     "static/css/main.02f7f0b1.css",
-    "static/js/main.8757f646.js"
+    "static/js/main.1adcb687.js"
   ]
 }
