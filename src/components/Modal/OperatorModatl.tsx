@@ -80,6 +80,11 @@ const Button = styled.button`
     position: absolute;
     right: 0;
     margin-top: 19px;
+    cursor: pointer;
+    &:active {
+      transition: all 0.9s ease 0s;
+      background-color: #191919;
+  }
 `;
 
 
@@ -127,7 +132,7 @@ const OperatorModal = ({isOpen, close, operator}:any) => {
         } else {
           reject(alert("Операция не выполнена"))
         }
-      },3000)
+      },1000)
 
     })
   }

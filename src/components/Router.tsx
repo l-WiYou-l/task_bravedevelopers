@@ -38,7 +38,7 @@ const CardImg = styled.div<TCardImgProps>`
   background-position-x: center;
 `;
 
-const ButtonOperator = styled.div`
+const CardOperator = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -91,9 +91,9 @@ function Router() {
   });
 
   const OperatorLink = (operator: TOperatorProps) => (
-    <ButtonOperator onClick={() => {setState({...state,isOpen: true,selectedOperator: operator})}}>
+    <CardOperator onClick={() => {setState({...state,isOpen: true,selectedOperator: operator})}}>
       <CardImg src={operator.imageSrc} width={500} height={180}></CardImg>
-    </ButtonOperator>
+    </CardOperator>
   );
 
   const operatorsLink = state.operators.map(operator => (
